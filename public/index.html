@@ -5,6 +5,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>SofClo</title>
 
+    <!-- Add some basic styles -->
+    <style>
+      .company-info {
+        max-width: 800px;
+        margin: 40px auto;
+        padding: 20px;
+        font-family: Arial, sans-serif;
+        line-height: 1.6;
+      }
+      .company-info h1, .company-info h2 {
+        color: #333;
+        margin-top: 30px;
+      }
+      .company-info p {
+        margin-bottom: 20px;
+      }
+    </style>
+
     <!-- Firebase SDK -->
     <script src="https://www.gstatic.com/firebasejs/11.1.0/firebase-app-compat.js"></script>
     <script src="https://www.gstatic.com/firebasejs/11.1.0/firebase-auth-compat.js"></script>
@@ -18,7 +36,49 @@
     <script src="https://www.gstatic.com/firebasejs/11.1.0/firebase-performance-compat.js"></script>
   </head>
   <body>
-    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <noscript>
+      <div style="text-align: center; padding: 20px;">
+        <h1>Welcome to SofClo</h1>
+        <p>You need to enable JavaScript to access our cloud-native SAM and FinOps management platform.</p>
+      </div>
+    </noscript>
+    
+    <div class="company-info">
+      <h1>Welcome to SofClo</h1>
+      
+      <h2>Company Overview</h2>
+      <p>
+        SofClo is a cloud-native platform designed to support Software Asset Management (SAM)
+        and FinOps programs at both strategic and operational levels. Unlike traditional SAM tools,
+        which focus primarily on technical tracking and compliance, SofClo bridges the gap between
+        operational management and strategic alignment. The platform helps SAM and FinOps
+        managers overcome operational bottlenecks, communicate more effectively with
+        stakeholders, and secure management buy-in for their programs. Through community-
+        driven feedback and industry best practices, SofClo aims to continuously evolve to meet the
+        growing needs of these fields.
+      </p>
+
+      <h2>Mission Statement</h2>
+      <p>
+        "To empower SAM and FinOps professionals with a framework, operational model, and
+        strategies they need to manage software and financial operations effectively, communicate
+        with stakeholders, and drive sustainable success."
+      </p>
+
+      <h2>Our Solution</h2>
+      <p>
+        SAM and FinOps managers often face challenges such as inefficiencies, lack of visibility, and
+        difficulties in aligning operations with business strategy. SAM-tools don't address the full
+        scope of program management, especially stakeholder engagement. SofClo solves this
+        problem by offering a structured SaaS platform that brings a SAM framework and operational
+        model and integrates it with planning and communication elements into one cohesive
+        system. By using SofClo, teams can optimize their SAM and FinOps programs, reduce
+        inefficiencies, and demonstrate value to leadership. The "SAM online Framework" SaaS tool
+        is not there to replace all existing capabilities within SAM, but exists to support and increase
+        the impact of existing and invested People, Process and Technology.
+      </p>
+    </div>
+
     <div id="root"></div>
 
     <script>
